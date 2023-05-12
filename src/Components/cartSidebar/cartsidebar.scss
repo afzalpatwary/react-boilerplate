@@ -1,0 +1,15 @@
+.cartSidebar{
+  position: absolute;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  background-color: #ddd;
+  height: 100vh;
+  z-index: 999;
+  transition: all 0.2s linear;
+
+  &.active{
+    right: 0;
+  }
+  
+}

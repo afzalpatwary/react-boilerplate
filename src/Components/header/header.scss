@@ -1,0 +1,34 @@
+.navbar-nav{
+  .nav-link{
+    transition: all 0.2s linear;
+    &.active, &:hover{
+      color: var(--green) !important;
+    }
+  }
+}
+.cart-qty{
+  background-color: var(--green);
+  color: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: block;
+  font-size: 11px;
+  right: -6px;
+  font-weight: 700;
+}
+.header-left{
+  width: 72%;
+  @media (max-width:991px) {
+    width: auto;
+  }
+}
+.navbar-toggler{
+  &:focus{
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+}
+span.navbar-brand a img {
+    max-width: 140px;
+}
