@@ -117,7 +117,7 @@ const Footer = () => {
                 Create a captivating CV or resuming no time! Midcareer has all the elements may need
               </p>
               <div className="form-group position-relative">
-                <input type="email" className='form-control rounded-pill' placeholder='Email address' />
+                <input type="email" className='form-control rounded-pill border-0' placeholder='Email address' />
                 <button type='submit' className='submit-btn border-0 px-4 py-2 bg-clr-green rounded-pill fw-black text-white position-absolute'>
                   Subscribe
                 </button>

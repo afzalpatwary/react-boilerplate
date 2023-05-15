@@ -65,7 +65,7 @@ const Header = () => {
             </Navbar.Brand>
             {/* <Navbar.Toggle /> */}
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ms-auto pt-3">
+              <Nav className="ms-auto pt-3 pt-lg-0">
                 {
                   headerMenu?.map((menu, index) => {
                     return <Nav.Link className='fs-6 text-clr-dark3 fw-medium px-lg-3 text-capitalize' as={NavLink} key={index} to={menu.path}>

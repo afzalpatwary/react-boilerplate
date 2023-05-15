@@ -17,10 +17,16 @@ body {
 :root {
     --dark1: #15281E;
     --dark3: #45564D;
+    --dark4: #5F766A;
     --dark6: #C8D9D0;
+    --dark7: #E8F2ED;
     --green: #398B60;
-    --yellow: #FFA114;;
-    --yellowLight: #FFF7EB;;
+    --greenDeep: #226542;
+    --yellow: #FFA114;
+    --yellowLight: #FFF7EB;
+    --primary10: #F8F9FA;
+    --danger: #FF4E3E;
+    --dangerDeep: #622620;
 }
 /* reset, root - End */
 
@@ -106,7 +112,7 @@ p {
 }
 
 
-.form-select,
+.form-select, .form-control,
 button {
     &:focus {
         box-shadow: none;
@@ -127,6 +133,9 @@ button {
 .text-clr-dark3 {
     color: var(--dark3);
 }
+.text-clr-dark4 {
+    color: var(--dark4);
+}
 .text-clr-dark6 {
     color: var(--dark6);
 }
@@ -140,6 +149,9 @@ button {
 .bg-clr-dark1 {
     background-color: var(--dark1);
 }
+.bg-clr-dark7 {
+    background-color: var(--dark7);
+}
 .bg-clr-yellow {
     background-color: var(--yellow);
 }
@@ -148,6 +160,18 @@ button {
 }
 .bg-clr-green {
     background-color: var(--green);
+}
+.bg-clr-greenDeep {
+    background-color: var(--greenDeep);
+}
+.bg-clr-primary10 {
+    background-color: var(--primary10);
+}
+.bg-clr-danger {
+    background-color: var(--danger);
+}
+.bg-clr-dangerDeep {
+    background-color: var(--dangerDeep);
 }
 
 
@@ -193,6 +217,16 @@ button {
     }
     @media (max-width: 560px) {
         font-size: 25px;
+    }
+}
+.fs-48 {
+    font-size: 48px;
+
+    @media (max-width: 776px) {
+        font-size: 40px;
+    }
+    @media (max-width: 560px) {
+        font-size: 35px;
     }
 }
 .fs-90 {
@@ -282,6 +316,10 @@ button {
 
 .radius-16 {
     border-radius: 16px;
+}
+.isBgImg{
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* helper , base classes - End */
 
